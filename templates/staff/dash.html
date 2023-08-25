@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='staff/dash/style.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='logo/favicon.png') }}">
+</head>
+<body>
+    <div class="home-container">
+        <h1>Welcome, {{ username }}!</h1>
+        <p>Your dashboard and important information will be displayed here.</p>
+        <div class="button-container">
+            <a class="dashboard-button" href="{{ url_for('staffdash') }}">Dashboard</a>
+            <a class="view-orders-button" href="{{ url_for('view_order', table=1) }}">View Orders</a>
+            <a class="add-order-button" href="{{ url_for('drinkorder_add') }}">Add Drink Order</a>
+            <a class="remove-order-button" href="{{ url_for('breakfastorder_add') }}">Add Breakfast Order</a>
+            <a class="rules-button" href="{{ url_for('order_r') }}">Remove Order</a>
+            
+        </div>
+        <button class="logout-button"><a href="{{ url_for('stafflogout') }}">Logout</a></button>
+    </div>
+</body>
+</html>

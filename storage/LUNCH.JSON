@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Steak",
+        "price": 15.00,
+        "note": "Specifiy how cooked. (+2.00 for fries), (+0.80 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "Half Roasted Chicken",
+        "price": 6.75,
+        "note": "(+5 for another half) (+0.80 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "All Day Soup",
+        "price": 4.75,
+        "note": "(+1.75 for large), (+0.80 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "Seafood Salad (for 2 persons)",
+        "price": 13.00,
+        "note": "(+0.80 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "Seafood Deluxe",
+        "price": 23.00,
+        "note": "Shell, Crab, Fish with Eggplant (+0.80 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "Burger with Fries",
+        "price": 5.00,
+        "note": "(+0.50 for any of cheese, egg, tomato, veggies, beef) (+0.90 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "Brothers Salad",
+        "price": 7.00,
+        "note": "(+0.90 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "Mixed Grill with Fries",
+        "price": 10.00,
+        "note": "(+4.50 for steak or chicken) (+2.50 for chicken cocktail sausage) (+0.90 for any hot drink, +1.25 for cold)"
+    }
+]

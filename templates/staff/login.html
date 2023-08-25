@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Staff Login - Brothers Restaurant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='staff/login/style.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='logo/favicon.png') }}">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Brothers Restaurant <br>Staff Login</h1>
+        <form method="POST" action="{{ url_for('stafflogin') }}">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            
+            <button type="submit">Login</button>
+        </form>
+        <p class="info">Contact the admin if you don't have login credentials.</p>
+    </div>
+</body>
+</html>

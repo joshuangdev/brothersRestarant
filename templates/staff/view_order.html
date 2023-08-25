@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Order</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='staff/order/view/style.css') }}" />
+</head>
+<body>
+    <h1><center>Table {{ table_number }}</center></h1>
+    <ul>
+        {% for order in orders %}
+            <h2>Order ID: {{ order.order_id }}</h2>
+            <h3><strong>Item:</strong> {{ order.item }}</h3>
+            <p><strong>Price:</strong> £{{ order.price }}</p>
+            <p><strong>Note:</strong> {{ order.note }}</p>
+            <p><strong>Note:</strong> {{ order.status }}</p>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('staffdash') }}">Back to Dashboard</a>
+</body>
+</html>

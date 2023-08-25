@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Salmon Sashimi",
+        "price": 4.75,
+        "note": "(+0.80 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "Tuna Sashimi",
+        "price": 4.75,
+        "note": "(+5 for another half) (+0.80 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "Shrimp Sashimi",
+        "price": 5.75,
+        "note": "(+0.80 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "Sashimi Deluxe",
+        "price": 17.00,
+        "note": "(+0.80 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "2x Egg (Tamago) Sushi",
+        "price": 3.00,
+        "note": "(+0.80 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "2x Tuna Sushi",
+        "price": 3.70,
+        "note": "(+0.80 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "2x Salmon Sushi",
+        "price": 3.25,
+        "note": "(+0.80 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "2x Shrimp Sushi",
+        "price": 3.50,
+        "note": "(+0.80 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "Sushi Deluxe 2x + 4x",
+        "price": 8.00,
+        "note": "2x your choice + 4 square sushi (+0.90 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "Square Sushi",
+        "price": 0.50,
+        "note": "(+0.90 for any hot drink, +1.25 for cold)"
+    }
+]

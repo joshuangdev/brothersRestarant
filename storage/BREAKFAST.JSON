@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Apple/ Pineapple Pie",
+        "price": 2.00,
+        "note": " (+0.75 for large), (+0.80 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "Mini Burger with Hash Brown",
+        "price": 5.00,
+        "note": "(+0.50 for any of cheese, egg, tomato, veggies, beef) (+0.90 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "Hash Brown",
+        "price": 2.00,
+        "note": "(+0.75 for large), (+0.80 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "Toast with butter (2pcs) + Sunny Egg",
+        "price": 3.00,
+        "note": "(+1.25 for extra pcs), (+0.80 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "Sliced Beef",
+        "price": 2.50,
+        "note": "(+0.80 for any hot drink, +1.25 for cold)"
+    },
+    {
+        "name": "All Day Soup",
+        "price": 4.75,
+        "note": "(+1.75 for large), (+0.80 for any hot drink, +1.25 for cold)"
+    }
+]

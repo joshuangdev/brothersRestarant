@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Staff Order</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'staff/order/css/style.css') }}" />
+</head>
+<body>
+    <h1>BREAKFAST<br>Staff Order Page</h1>
+    <form method="POST" action="{{ url_for('breakfastorder_add') }}">
+        <label for="item">Select Item:</label>
+        <select name="item_index">
+            {% for item in menu_items %}
+                <option value="{{ loop.index0 }}">{{ item.name }} - £{{ item.price }} - {{ item.note }}</option>
+            {% endfor %}
+        </select>
+        <label for="table_number">Item Note:</label>
+        <input type="stringformat" name="item_note" />
+        <label for="table_number">Table Number:</label>
+        <input type="number" name="table_number" required />
+        <button type="submit">Add to Order</button>
+    </form>
+
+    <h2>Current Orders:</h2>
+    {% for table_number, orders in table_orders.items() %}
+        <h3>Table {{ table_number }}</h3>
+        <ul>
+            {% for order in orders %}
+                <li>[{{ order.order_id }}] {{ order.item }} - £{{ order.price }} - Note: {{ order.note }}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+</body>
+</html>

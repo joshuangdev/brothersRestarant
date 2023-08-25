@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Remove Order</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <h1>Remove Order</h1>
+    <form method="POST" action="{{ url_for('order_r') }}">
+        <label for="table_number">Table Number:</label>
+        <input type="number" name="table_number" required />
+        
+        <label for="order_id">Order ID:</label>
+        <input type="number" name="order_id" required />
+        
+        <button type="submit">Remove Order</button>
+    </form>
+    
+    <h2>Current Orders:</h2>
+    {% for table_number, orders in table_orders.items() %}
+        <h3>Table {{ table_number }}</h3>
+        <ul>
+            {% for order in orders %}
+                <li>[{{ order.order_id }}] {{ order.item }} - £{{ order.price }} - Note: {{ order.note }}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+</body>
+</html>
